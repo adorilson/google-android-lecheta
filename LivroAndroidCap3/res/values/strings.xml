@@ -7,5 +7,6 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_exemplo2">Exemplo2</string>
     <string name="title_activity_exemplo3">Exemplo3 - imagens utilizando a classe ImageView</string>
+    <string name="title_activity_exemplo4">Exemplo4</string>
 
 </resources>
