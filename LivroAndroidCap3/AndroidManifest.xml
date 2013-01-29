@@ -22,10 +22,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="br.livro.android.cap3.Exemplo2"
-            	  android:label="@string/title_activity_exemplo2">
+        <activity
+            android:name="br.livro.android.cap3.Exemplo2"
+            android:label="@string/title_activity_exemplo2" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.livro.android.cap3.Exemplo3"
+            android:label="@string/title_activity_exemplo3" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
