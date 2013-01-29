@@ -1,4 +1,4 @@
 google-android-lecheta
 ======================
 
-Aplicações desenvolvidas durante leitura do livro Google Android
+Contém aplicações desenvolvidas durante leitura do livro Google Android 2ª edição: http://livroandroid.com.br/detalhes_livro1.html
