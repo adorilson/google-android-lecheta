@@ -21,9 +21,8 @@ public class Tela2 extends ExemploCicloVida {
 		
 		Intent it = getIntent();
 		if (it != null){
-			Bundle params = it.getExtras();
-			if (params != null){
-				String msg = params.getString("msg");
+			String msg = it.getStringExtra("msg");
+			if (msg != null){
 				Log.i(CATEGORIA, "Mensagem: " + msg);
 			}
 		}

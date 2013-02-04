@@ -22,9 +22,7 @@ public class ExemploCicloVidaAbrirTela extends ExemploCicloVida implements OnCli
 	public void onClick(View v){
 		
 		Intent it = new Intent(this, Tela2.class);
-		Bundle params = new Bundle();
-		params.putString("msg", "Olá");
-		it.putExtras(params);
+		it.putExtra("msg", "Olá");
 		startActivity(it);
 	}
 
