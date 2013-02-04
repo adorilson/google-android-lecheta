@@ -7,5 +7,6 @@
     <string name="title_activity_exemplo_ciclo_vida_abrir_tela">ExemploCicloVidaAbrirTela</string>
     <string name="title_activity_tela2">Tela2</string>
     <string name="title_activity_exemplo_list_activity1">ExemploListActivity1</string>
+    <string name="title_activity_menu">Menu</string>
 
 </resources>
