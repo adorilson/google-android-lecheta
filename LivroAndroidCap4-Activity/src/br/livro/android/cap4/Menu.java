@@ -13,8 +13,10 @@ public class Menu extends ListActivity {
 	private static final String[] nomes = new String[]{
 		"Ciclo de Vida", 
 		"ArrayAdapter", "SimpleAdapter1 - Contatos  ", 
-		"SimpleAdapter2 - Contatos com nome e fone",
-		"CursorAdapter 1", "CursorAdapter 2", "Cursor de Carros", "Customizado - Smile",
+		"SimpleAdapter2 - Contatos com nome e fone sem XML",
+		"SimpleAdapter2 - XML customizado",
+		"CursorAdapter 1", 
+		"CursorAdapter 2", "Cursor de Carros", "Customizado - Smile",
 		"MapActivity", "MapActivity - Cristo", "Sair"};
 	
 	@Override
@@ -40,8 +42,9 @@ public class Menu extends ListActivity {
 			case 3:
 				startActivity(new Intent(this, ExemploSimpleAdapter1.class));
 				break;
-				
-				
+			case 4:
+				startActivity(new Intent(this, ExemploSimpleAdapter2.class));
+				break;
 			default:
 				// Encerra a activity (encerra o ciclo de vida)
 				finish();
