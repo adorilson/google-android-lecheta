@@ -9,5 +9,6 @@
     <string name="title_activity_exemplo_list_activity1">ExemploListActivity1</string>
     <string name="title_activity_menu">Menu</string>
     <string name="title_activity_exemplo_lista_contatos2">ExemploListaContatos2</string>
+    <string name="title_activity_exemplo_simple_adapter1">ExemploSimpleAdapter1</string>
 
 </resources>
