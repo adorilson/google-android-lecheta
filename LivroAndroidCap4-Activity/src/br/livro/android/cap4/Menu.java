@@ -15,6 +15,7 @@ public class Menu extends ListActivity {
 		"ArrayAdapter", "SimpleAdapter1 - Contatos  ", 
 		"SimpleAdapter2 - Contatos com nome e fone sem XML",
 		"SimpleAdapter2 - XML customizado",
+		"ExemploSmileAdapter",
 		"CursorAdapter 1", 
 		"CursorAdapter 2", "Cursor de Carros", "Customizado - Smile",
 		"MapActivity", "MapActivity - Cristo", "Sair"};
@@ -45,6 +46,11 @@ public class Menu extends ListActivity {
 			case 4:
 				startActivity(new Intent(this, ExemploSimpleAdapter2.class));
 				break;
+			case 5:
+				startActivity(new Intent(this, ExemploSmileAdapter.class));
+				break;	
+				
+				
 			default:
 				// Encerra a activity (encerra o ciclo de vida)
 				finish();
