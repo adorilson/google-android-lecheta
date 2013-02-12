@@ -53,7 +53,25 @@ public class Main extends Activity {
 				// Envia a mensagem ao sistema operacional
 				startActivity(intent);
 			}
-		});	
+		});
+		
+		// Busca o Button pelo id
+		Button button_contato = (Button) findViewById(R.id.botaoVerContato);
+		// Informa o listener
+		button_contato.setOnClickListener( new Button.OnClickListener(){
+			@Override
+			public void onClick(View v){
+				final EditText campoIdContato = (EditText) findViewById(R.id.campoIdContato);
+				String idContato = campoIdContato.getText().toString();
+				//Representa o contato que desejamos exibir
+				Uri uri = Uri.parse("content://com.android.contacts/contacts/" + idContato);
+				// Cria a Intent com o contato a ser exibido
+				Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+				// Envia a mensagem ao sistema operacional
+				startActivity(intent);
+			}
+		});		
+		
 		
 	}
 

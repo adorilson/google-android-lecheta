@@ -36,4 +36,17 @@
        android:text="Fazer ligação"
    />
    
+   <EditText
+   		android:id="@+id/campoIdContato"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:text=""
+   />
+   <Button
+       android:id="@+id/botaoVerContato"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Exibir Contato"
+   />
+   
 </LinearLayout>
