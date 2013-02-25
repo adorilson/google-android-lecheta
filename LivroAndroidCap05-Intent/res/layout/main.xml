@@ -49,4 +49,11 @@
        android:text="Exibir Contato"
    />
    
+   <Button
+       android:id="@+id/botaoVerTodosContatos"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Exibir todos os contatos"
+   />
+   
 </LinearLayout>

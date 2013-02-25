@@ -71,8 +71,18 @@ public class Main extends Activity {
 				startActivity(intent);
 			}
 		});		
-		
-		
-	}
 
+		Button button_todos_contato = (Button) findViewById(R.id.botaoVerTodosContatos);
+		// Informa o listener
+		button_todos_contato.setOnClickListener( new Button.OnClickListener(){
+			@Override
+			public void onClick(View v){
+				Uri uri = Uri.parse("content://com.android.contacts/contacts/ ");
+				// Cria a Intent com o contato a ser exibido
+				Intent intent = new Intent(Intent.ACTION_PICK, uri);
+				// Envia a mensagem ao sistema operacional
+				startActivity(intent);
+			}
+		});	
+	}
 }

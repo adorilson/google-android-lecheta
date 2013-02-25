@@ -20,7 +20,7 @@ public class ExemploAbrirBrowser extends Activity implements OnClickListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.form_browser);
+		//setContentView(R.layout.form_browser);
 		final Button button  = (Button) findViewById(R.id.botaoOk);
 		button.setOnClickListener(this);
 	}
